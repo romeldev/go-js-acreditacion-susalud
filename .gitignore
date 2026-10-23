@@ -1,0 +1,21 @@
+# Material de terceros y de trabajo — no debe publicarse.
+# El árbol _rea_work/ contiene el código Java decompilado de la librería
+# original de SUSALUD y el JAR extraído; ws-service-pasarela/ son los binarios
+# que distribuye el proveedor.
+_rea_work/
+ws-service-pasarela/
+*.jar
+*.dll
+
+# Artefactos de compilación del arnés Java (tools/golden)
+tools/golden/*.class
+
+# Go
+*.test
+*.out
+/dist/
+
+# Editores y sistema
+.DS_Store
+.idea/
+.vscode/
