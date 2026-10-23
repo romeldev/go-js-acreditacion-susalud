@@ -163,3 +163,11 @@ Para regenerar los fixtures contra el JAR original:
 javac -cp <jar> -d tools/golden tools/golden/BeanDump.java
 java -cp tools/golden:<jar> BeanDump x12n/testdata/golden.json
 ```
+
+## Licencia
+
+MIT — ver [LICENSE](LICENSE). Copyright (c) 2026 Romel Diaz.
+
+Este repositorio contiene **sólo** el port a Go. La implementación Java de
+referencia y sus binarios no se distribuyen aquí; el árbol decompilado que se
+usó para extraer el formato está excluido por `.gitignore`.

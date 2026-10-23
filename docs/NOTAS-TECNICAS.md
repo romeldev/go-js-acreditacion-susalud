@@ -481,9 +481,10 @@ Preguntas que una revisión futura debería resolver con el usuario:
    códigos de error como el original (`0100`, `0101`, …) o errores Go?
 3. **Modo por defecto**: ¿`Compat` debería pasar a ser el defecto cuando el
    contraparte sea estrictamente la librería vieja?
-4. **Publicación**: el módulo ya es `github.com/romeldev/go-js-acreditacion-susalud`.
-   Falta fijar la licencia — sin archivo `LICENSE` el repo queda como "todos los
-   derechos reservados" por defecto, lo que desalienta su uso.
+4. **Publicación**: el módulo es `github.com/romeldev/go-js-acreditacion-susalud`
+   y la licencia es **MIT**. Sigue pendiente confirmar con el área legal bajo
+   qué términos puede distribuirse un port del original: la licencia MIT sólo
+   cubre el código propio.
 5. **`SE01`**: se reproduce el conteo no estándar del original. Si algún día se
    integra con un validador X12 externo, esto habrá que corregirlo (y
    posiblemente romper paridad de bytes).
